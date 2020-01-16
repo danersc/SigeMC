@@ -1,6 +1,7 @@
 import os
 
 import dj_database_url
+import django_heroku
 from decouple import config, Csv
 from dj_database_url import parse as dburl
 from .configs import DEFAULT_DATABASE_URL, DEFAULT_FROM_EMAIL, EMAIL_HOST, EMAIL_HOST_USER, EMAIL_HOST_PASSWORD, EMAIL_PORT, EMAIL_USE_TLS
@@ -154,7 +155,6 @@ LOGIN_NOT_REQUIRED = (
 )
 
 # Configure Django App for Heroku.
-import django_heroku
 django_heroku.settings(locals())
 
 # This is new
