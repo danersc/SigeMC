@@ -11,3 +11,4 @@ lxml==4.2.*
 pyOpenSSL==17.5.*
 signxml==2.5.*
 whitenoise==5.0.1
+django-heroku==0.3.1
