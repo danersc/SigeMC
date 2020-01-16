@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn sigemc.wsgi --log-file -
+web: gunicorn djangosige.wsgi --log-file -
