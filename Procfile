@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn pos.wsgi --log-file -
+web: gunicorn sigemc.wsgi --log-file -
